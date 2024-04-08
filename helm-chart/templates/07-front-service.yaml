@@ -17,4 +17,4 @@ spec:
       targetPort: 8080
   selector:
     app.kubeshark.co/app: front
-  type: ClusterIP
+  type: LoadBalancer
